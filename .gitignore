@@ -38,3 +38,11 @@ out/
 node_modules/
 package.json
 yarn.lock
+
+# Sensitive files
+application.properties
+*.json
+!package.json
+.env
+*.pem
+*.key
